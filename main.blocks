@@ -1,1 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pb.*nohKZ8lLA}Sh8JOG">graden</variable></variables><block type="device_forever" id="C8.7F^6l}YdhE(f6Srjg" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="Nw55~sf[g=ARvQ!jr|WT"><value name="IF0"><shadow type="logic_boolean" id="XEgyI$a-$GMS}!5UZ7jL"><field name="BOOL">TRUE</field></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="pb.*nohKZ8lLA}Sh8JOG">graden</variable><variable id="Ib*zYLKh;sX|8U^09w3t">als de waarde van het kompas</variable><variable id="I]/+zai/m5hH{:A-9={.">kompas</variable><variable id="F$/Ivts!GWLxMSDKyE3o">de waarde van het kompas</variable><variable id="21bDwd_E}YT1pv_cLoUi">de waarde van het kompas kleiner is</variable><variable id="R)VZegZk7uX68oe68,tA">de waarde van het kompas groter is dan</variable><variable id="e20QRoiNU;xXVZT}sj{%">tussen</variable></variables><block type="device_forever" id="U~AT[=Z)?.3YIYUkWB:S" x="-534" y="-561"><statement name="HANDLER"><block type="variables_set" id="+D-ItRw9KVAa[C3VJVBJ"><field name="VAR" id="pb.*nohKZ8lLA}Sh8JOG">graden</field><value name="VALUE"><shadow type="math_number" id="@e}9s*)CbbtSNb4eq8r!" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="device_heading" id="yRq6e)G_CV*n.9AnGyqJ"></block></value><next><block type="device_show_leds" id="CrCD)wwd9?HowWWE@RF;"><field name="LEDS">`
+        . . # . . 
+        . # # # . 
+        # . # . # 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="controls_if" id="9)I1kOoYVF:@SXRvZ~?K"><value name="IF0"><shadow type="logic_boolean" id="}7!,,iJMvURb2}mUS*_,"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="s.Z[w%rmK+`3Ae@#:ERo"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="f?37EGL,^Au:3lGHuk0y" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="%uBKX%ft@3x9HHVs:W95"><field name="VAR" id="F$/Ivts!GWLxMSDKyE3o">de waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="u*PTxgpm~/wZ)74+Q]AQ"><field name="NUM">45</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="H;jU?#~)hSmo~%?/9Xql"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement><next><block type="controls_if" id="OK_4KB]Po]?1/9cg)Mun"><value name="IF0"><shadow type="logic_boolean" id="M~{ALmmg*xa.9h(:^}4;"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@4=eJsGw_v:#gVa2LaHJ"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="f?37EGL,^Au:3lGHuk0y"><field name="NUM">0</field></shadow><block type="variables_get" id="nbOf/EcCsqesZG)0-#C]"><field name="VAR" id="F$/Ivts!GWLxMSDKyE3o">de waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="xTph![U}zcb5I:-NE)tW"><field name="NUM">135</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="MgD)IeaSUQOi`$Y_6gq2"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # . # . # 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><next><block type="controls_if" id="hNr5ZIkN.NTd@]0%7Rp."><value name="IF0"><shadow type="logic_boolean" id="}7!,,iJMvURb2}mUS*_," disabled-reasons="MANUALLY_DISABLED"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="qKIxe;4.YuAA9TbueimO"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="f?37EGL,^Au:3lGHuk0y" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow><block type="variables_get" id="mHqL.tE@hz*O-yl:.wEv"><field name="VAR" id="F$/Ivts!GWLxMSDKyE3o">de waarde van het kompas</field></block></value><value name="B"><shadow type="math_number" id="bJg]I{41dn.rQ}qQiznk"><field name="NUM">225</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="*^A0$}k%F1y}eGP;HH)J"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        # # # # # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></statement></block><block type="variables_set" id="t:~W^!=`I8h5zkbj$]hX" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="-1188" y="-247"><field name="VAR" id="e20QRoiNU;xXVZT}sj{%">tussen</field><value name="VALUE"><shadow type="math_number" id="SqFgsk4R_g@jbnml8JXY" disabled-reasons="MANUALLY_DISABLED"><field name="NUM">0</field></shadow></value></block><block type="pxt-on-start" id="ut_F5Aq9SUyFY9p-ykFA" x="-904" y="-220"></block><block type="device_get_rotation" id=";9xMcySoS_S}?O=-^jpn" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="0" y="0"><field name="NAME">Rotation.Roll</field></block></xml>
